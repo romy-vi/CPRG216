@@ -22,7 +22,7 @@ else:
 # if else works fine if we only have two conditions
 
 print("Welcome to the grade system")
-grade = int(input("Please enter your grade"))
+grade = int(input("Please enter your grade.."))
 
 if grade >= 90:
     letter_grade = 'A'

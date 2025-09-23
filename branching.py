@@ -62,6 +62,9 @@ print("are 4 and 5 not equal?", 4 !=5)
 # : (is a must)
 # indentation (must have)
 # one or more statements of any type 
+# non indented else (optional)
+# : (is a must after else)
+# one or more statements (is a must if you use else)
 
 if 3<4: # : is like then what?
     print("yes")
@@ -72,11 +75,29 @@ print("Outside if statement")
 if 4>5:
     print(True)
 
-phone = input(" Do you have an android or apple?")
+
+# Now let's work on else statement 
+# if (keyword, is a must)
+# boolean expression (is a must)
+# : (is a must)
+# indentation (must have)
+# one or more statements of any type 
+# non indented else (optional)
+# : (is a must after else)
+# one or more statements (is a must if you use else)
 
 
-if phone == "android":
-    print("WHY?")
 
-if phone == "apple":
-    print("good for u")
+# Now let's work on if elif else statement 
+# if (keyword, is a must)
+# boolean expression (is a must)
+# : (is a must)
+# indentation (must have)
+# one or more statements of any type 
+#one or more of the following
+    #elif (optional)
+    # condition (mandatory if you have elif)
+    # : 
+# non indented else (optional)
+# : (is a must after else)
+# one or more statements (is a must if you use else)

@@ -11,10 +11,18 @@ msg = "Hello" # the c language  introduced string of characters
 
 name = "Sam" 
 
+old = True
+young = False
+
 print(x)
-
 print(msg)
-
 print(name)
-
 print(y)
+print(old)
+print(young)
+
+#syntax  is the rules of programming language 
+
+test_1 = 5 
+t1 = 4
+msg_1 = "hola"
