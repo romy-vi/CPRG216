@@ -34,18 +34,46 @@ num2_as_text = str(num2)
 
 
 # Using input function.. Note input function always return to a string (text)
-
+'''
 year_of_birth = input("Please enter your year of birth\n")
 print("Your age is ",2025 - int(year_of_birth))
+'''
+
+# print function 
+    # working with a separator 
+
+print("Hello", "world", sep=' ', end=' ')
+print("Hello", "world", sep=' ')
+print("Hello\tworld")
+print("Hello\nworld")
+print('What is the student\'s name?')
+print('Use this symbol \\ to make an escape character')
+
+# precedence rules (order of operations, programming algebra)
+
+expression = 3+4*0-300+12/3
+print(expression)
+
+expression = 4/2*3
 
 
-# problem 
+# More about assignment 
 
+x = 3 
+x = x+5
 
-user_input = input("Enter the radius of a circle")
+print(x)
 
-area = 3.14 * user_input ** 2
+#can we have a shorthand for this expression?\
 
-
-print("The area of the circle is", area, type(area))
-
+x += 5 # x = x+5
+print(x)
+# other expressions 
+x -= 2 # x=-2
+print(x)
+x *= 3 # x * 3
+print(x)
+x /=2 # x = x/2
+print(x)
+x **=4 # x ** 4 
+print(x)
